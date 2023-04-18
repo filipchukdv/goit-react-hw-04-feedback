@@ -1,0 +1,10 @@
+.button {
+  padding: 7px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
