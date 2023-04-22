@@ -52,8 +52,8 @@ export class App extends Component {
               good={state.good}
               neutral={state.neutral}
               bad={state.bad}
-              total={countTotalFeedback}
-              positivePercentage={countPositiveFeedbackPercentage}
+              total={countTotalFeedback()}
+              positivePercentage={countPositiveFeedbackPercentage()}
             />
           )}
         </Section>
