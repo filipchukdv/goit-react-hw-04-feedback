@@ -1,8 +1,8 @@
+import { useState } from 'react';
 import Statistics from './statistics/Statistics';
 import FeedbackOptions from './feedbackOptions/FeedbackOptions';
 import Section from './section/Section';
 import Notification from './notification/Notification';
-import { useState } from 'react';
 
 export const App = () => {
   const [good, setGood] = useState(0);
@@ -61,4 +61,3 @@ export const App = () => {
     </>
   );
 };
-
